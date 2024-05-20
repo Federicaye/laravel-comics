@@ -2,7 +2,7 @@
     <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="Logo">
     <div>
         <ul class="d-flex align-items-center justify-content-center ">
-            <li> <a class="{{ Route::currentRouteName() == 'character' ? 'active' : ''}}" href="{{route('charater')}}">character</a> </li>
+            <li> <a class="{{ Route::currentRouteName() == 'character' ? 'active' : ''}}" href="{{route('character')}}">character</a> </li>
             <li> <a class="{{ Route::currentRouteName() == 'comics' ? 'active' : ''}}" href="{{route('comics')}}">comics</a> </li>
             <li> <a class="{{ Route::currentRouteName() == 'movies' ? 'active' : ''}}" href="{{route('movies')}}"> movies </a> </li>
             <li> <a class="{{ Route::currentRouteName() == 'tv' ? 'active' : ''}}" href="{{route('tv')}}">tv</a> </li>
