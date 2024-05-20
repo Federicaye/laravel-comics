@@ -12,3 +12,47 @@ $fa-font-path: "../webfonts" !default;
 h1 {
     color: $text-color;
 }
+
+nav {
+    ul {
+        gap: 20px;
+        list-style: none;
+        text-transform: uppercase;
+        margin: 1rem
+    }
+
+    img {
+        width: 50px;
+
+    }
+
+}
+
+footer {
+    background-image: url('../images/footer-bg.jpg');
+    color: white;
+
+    .footer-menu {
+        gap: 20px;
+
+    }
+
+    h2 {
+        text-transform: uppercase;
+        margin-top: 50px;
+       
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0px;
+       
+    }
+}
+
+.jumbotron {
+    background-image: url('../images/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 400px;
+}

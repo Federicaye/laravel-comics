@@ -4,7 +4,10 @@
 
 @section('content')
 <main>
-    <h1>Home page</h1>
+   <div class="jumbotron">
+
+   </div>
+   
 </main>
 
 @endsection
