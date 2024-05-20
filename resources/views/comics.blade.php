@@ -7,9 +7,12 @@
    <div class="jumbotron">
 
    </div>
-   <div>
+   <div class="gallery-comics">
     @foreach ($comics as $comic)
-    <li>{{$comic['title']}}</li>
+    <div>
+        <img src="{{$comic['thumb'] }}" alt="{{$comic['title']}}">
+        <p>{{$comic['title']}}</p>
+    </div>
     @endforeach
    </div>
 </main>
